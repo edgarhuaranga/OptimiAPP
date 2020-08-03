@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_info"
+            android:title="Acerda de la tesis" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_proyecto_24dp"
+            android:title="Proyectos" />
+        <item
+            android:id="@+id/nav_equipos"
+            android:icon="@drawable/ic_menu_equipo_24dp"
+            android:title="Equipos" />
+    </group>
+</menu>
